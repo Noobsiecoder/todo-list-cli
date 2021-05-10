@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <img alt="Build" src="https://img.shields.io/badge/build-unstable-red.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Noobsiecoder/todo-list-cli#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-no-red.svg" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -28,35 +28,36 @@
   - Mark Important
   - Status of completion
 
-## Commands
+## I/O Operation commands
 
-- Help
-  ```bash
-  todo --help
-  ```
-- Create
-  ```bash
-  todo --add tk="Complete REST API" note="Build a rest api using flask which takes care of login/register authentication" sd="dd-mm-yy-am/pm" ed="dd-mm-yy-am/pm" dl="06:55:pm" imp=true comp=true
-  ```
-- Read
-  ```bash
-  todo --read sort=["start", "end", "dl", "imp", "comp"]
-  ```
-- Update
-  ```bash
-  todo --edit tkid=12 # Then type the data to be updated
-  ```
-- Delete
-  ```bash
-  todo --del tkid=8
-  ```
+### Create task
 
-## Display tasks
+```bash
+todo --add
+```
+
+### Display tasks
+
+```bash
+todo --read sort=["start", "end", "dl", "imp", "comp"]
+```
 
 | tkid | Tasks       | Note                             |  Start   |   End    | Deadline | Important | Completed |
 | :--: | :---------- | :------------------------------- | :------: | :------: | :------: | :-------: | :-------: |
 |  1   | Hit the gym | Take gym bag, don't forget towel | 12-05-21 | 12-05-21 | 06:55 AM |    Yes    |    No     |
 |  2   | Eat Food    | Have eggs and fruits             | 12-05-21 | 13-05-21 | 08:00 AM |    Yes    |    Yes    |
+
+### Update task
+
+```bash
+todo --edit
+```
+
+### Delete task
+
+```bash
+todo --del
+```
 
 ## Install
 
@@ -93,5 +94,3 @@ Copyright © 2021 [Abhishek Sriram](https://github.com/Noobsiecoder).<br />
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 ---
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
