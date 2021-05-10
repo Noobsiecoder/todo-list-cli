@@ -33,13 +33,13 @@
 ### Create task
 
 ```bash
-todo --add
+todo add
 ```
 
 ### Display tasks
 
 ```bash
-todo --read sort=["start", "end", "dl", "imp", "comp"]
+todo read --sort=["start", "end", "dl", "imp", "comp"]
 ```
 
 | tkid | Tasks       | Note                             |  Start   |   End    | Deadline | Important | Completed |
@@ -50,13 +50,13 @@ todo --read sort=["start", "end", "dl", "imp", "comp"]
 ### Update task
 
 ```bash
-todo --edit
+todo edit
 ```
 
 ### Delete task
 
 ```bash
-todo --del
+todo del
 ```
 
 ## Install
