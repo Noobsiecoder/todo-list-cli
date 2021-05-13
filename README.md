@@ -33,30 +33,33 @@
 ### Create task
 
 ```bash
+todo -a
+#
 todo add
 ```
 
 ### Display tasks
 
 ```bash
-todo read --sort=["start", "end", "dl", "imp", "comp"]
+todo -r
+# or
+todo read
 ```
-
-| tkid | Tasks       | Note                             |  Start   |   End    | Deadline | Important | Completed |
-| :--: | :---------- | :------------------------------- | :------: | :------: | :------: | :-------: | :-------: |
-|  1   | Hit the gym | Take gym bag, don't forget towel | 12-05-21 | 12-05-21 | 06:55 AM |    Yes    |    No     |
-|  2   | Eat Food    | Have eggs and fruits             | 12-05-21 | 13-05-21 | 08:00 AM |    Yes    |    Yes    |
 
 ### Update task
 
 ```bash
-todo edit
+todo -u
+# or
+todo update
 ```
 
 ### Delete task
 
 ```bash
-todo del
+todo -d
+# or
+todo delete
 ```
 
 ## Install
