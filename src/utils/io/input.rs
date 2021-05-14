@@ -1,6 +1,7 @@
 use std::io::{self, Write};
 
-// Function which gets input from user and returns the value
+//Public function 
+// Gets input from user and returns the value
 pub fn user_input() -> String {
     let mut input = String::new();
     io::stdout().flush().expect("Unable to flush stdout");

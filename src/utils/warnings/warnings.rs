@@ -6,7 +6,8 @@ pub enum Warnings {
 }
 
 impl Warnings {
-    // Function which throws a warning
+    // Public function 
+    // Throws a warning
     pub fn throw_warning(&self) {
         match *self {
             Warnings::NoArgsWarning => font_styles::FontStyle::_warning_message(

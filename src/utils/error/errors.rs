@@ -6,7 +6,8 @@ pub enum Errors {
 }
 
 impl Errors {
-    // Function which throws an error
+    // Public function
+    // Throws an error
     pub fn throw_error(&self) {
         match *self {
             Errors::SyntaxError => font_styles::FontStyle::_error_message(

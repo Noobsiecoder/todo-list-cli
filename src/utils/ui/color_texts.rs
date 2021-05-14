@@ -13,7 +13,8 @@ pub enum FontStyle {
 }
 
 impl FontStyle {
-    // Function which prints error message
+    // Public function 
+    // Prints error message
     pub fn _error_message(&self, error: String, info: String) {
         let code = "todo --help";
 
@@ -23,12 +24,14 @@ impl FontStyle {
         println!("❓ Try this : \x1b[1;3;35m{}\x1b[0m", code);
     }
 
+    // Function yet to be implemented
     #[allow(dead_code)]
     pub fn success_message(&self, _success: &String, _info: &String) {
         println!("\x1b[1;32m{}\x1b[0m", "Success!");
     }
 
-    // Function which prints warning message
+    // Public function 
+    // Prints warning message
     pub fn _warning_message(&self, warning: String, info: String) {
         let code = "todo --help";
         println!("\x1b[1;36mHello World! This your assistant AI Taskio 🤖\x1b[0m\n");
