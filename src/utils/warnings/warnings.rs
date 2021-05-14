@@ -6,15 +6,18 @@ pub enum Warnings {
 }
 
 impl Warnings {
-    // Public function 
+    // Public function
     // Throws a warning
     pub fn throw_warning(&self) {
         match *self {
-            Warnings::NoArgsWarning => font_styles::FontStyle::_warning_message(
-                &font_styles::FontStyle::Orange,
-                String::from("NoArgsWarning"),
-                String::from("No arguments were passed."),
-            ),
+            Warnings::NoArgsWarning => {
+                let code = "todo --help";
+                font_styles::_warning_message(
+                    String::from("NoArgsWarning"),
+                    String::from("No arguments were passed."),
+                );
+                println!("❓ Try this : \x1b[1;3;35m{}\x1b[0m", code);
+            }
         }
     }
 }

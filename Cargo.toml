@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 ansi_term = "0.12.1"
+sqlite = "0.26.0"
+term-table = "1.3.1"

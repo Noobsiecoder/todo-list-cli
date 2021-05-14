@@ -12,6 +12,9 @@ mod warning;
 #[path = "./utils/commands/commands.rs"]
 mod command;
 
+#[path="./utils/ui/table.rs"]
+mod table;
+
 fn main() {
     // Enable ansi support for windows 10
     let enabled = ansi_term::enable_ansi_support();
@@ -25,7 +28,7 @@ fn main() {
         _ => {
             let command_exists: bool = command::Commands::cli_command(&user_args[0]);
             if !command_exists {
-                error::Errors::throw_error(&error::Errors::SyntaxError); // throw errors
+                error::Errors::_throw_error(&error::Errors::_SyntaxError); // throw errors
             }
         }
     }

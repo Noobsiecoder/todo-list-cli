@@ -11,6 +11,8 @@
 - Created `user_input()` function to return inputted data, implemented in [`input.rs`](./src/utils/io/input.rs)
 - Apply font style using escape codes, implemented in [`color_texts.rs`](./src/utils/ui/color_texts.rs)
 
-# Version 0.1.1 (May 14th 2021)
+# Version 0.1.2 (May 14th 2021)
 - Changes made in all comments for functions
 - Code inside `manual.rs` has been shifted to [`commands.rs`](./src/utils/commands/commands.rs)
+- Connection with database is done successfully
+- Add and read method has been implemented
