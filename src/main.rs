@@ -17,6 +17,7 @@ mod table;
 
 fn main() {
     // Enable ansi support for windows 10
+    #[cfg(target_os = "windows")]
     let enabled = ansi_term::enable_ansi_support();
     match enabled {
         Ok(_) => (),
