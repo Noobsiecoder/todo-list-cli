@@ -1,3 +1,4 @@
+#[allow(unused_imports)]
 use ansi_term;
 
 #[path = "./utils/io/args.rs"]
