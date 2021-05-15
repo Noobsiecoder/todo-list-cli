@@ -8,7 +8,7 @@ mod db;
 // Gets data in nested vector of string form and displays it in a table cell
 pub fn _diplay_data_in_table_cells() {
     let mut table = term_table::Table::new();
-    table.max_column_width = 40;
+    table.max_column_width = 28;
     table.style = term_table::TableStyle::extended();
     table.add_row(Row::new(vec![
         TableCell::new_with_alignment(
