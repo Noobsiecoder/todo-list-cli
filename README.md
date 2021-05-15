@@ -29,7 +29,6 @@
   - [Delete task](#delete-task)
   - [Help command](#help-command)
   - [CLI Version command](#cli-version-command)
-  - [Uninstall CLI command](#uninstall-cli-command)
 - [Install](#install)
 - [Usage](#usage)
 - [Author](#author)
@@ -97,12 +96,6 @@ todo --help
 
 ```bash
 todo --version
-```
-
-### Uninstall CLI command
-
-```bash
-todo --uninstall
 ```
 
 ## Install
