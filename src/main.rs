@@ -18,10 +18,12 @@ mod table;
 fn main() {
     // Enable ansi support for windows 10
     #[cfg(target_os = "windows")]
-    let enabled = ansi_term::enable_ansi_support();
-    match enabled {
-        Ok(_) => (),
-        Err(err) => println!("{}", err),
+    {
+        let enabled = ansi_term::enable_ansi_support();
+        match enabled {
+            Ok(_) => (),
+            Err(err) => println!("{}", err),
+        }
     }
     let user_args = args::get_args();
     match user_args.len() {
