@@ -16,3 +16,8 @@
 - Code inside `manual.rs` has been shifted to [`commands.rs`](./src/utils/commands/commands.rs)
 - Connection with database is done successfully
 - Add and read method has been implemented
+
+# Version 1.0.0 (May 15th 2021)
+- Official launch of application
+- Completed update and delete method implementation
+- Minor bug fixes

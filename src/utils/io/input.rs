@@ -14,7 +14,7 @@ pub fn user_input(input_message: String) -> String {
             .read_line(&mut input)
             .expect("Error reading input, please try later");
         if input.trim().is_empty() {
-            error::Errors::_throw_error(&error::Errors::_InputError);
+            error::Errors::_throw_error(&error::Errors::InputError);
         } else {
             break;
         }

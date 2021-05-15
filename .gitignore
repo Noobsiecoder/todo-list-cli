@@ -15,7 +15,4 @@ Cargo.lock
 
 # miscellaneous
 *.db
-
-## Documentation
-/docs
 /md

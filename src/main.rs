@@ -12,7 +12,7 @@ mod warning;
 #[path = "./utils/commands/commands.rs"]
 mod command;
 
-#[path="./utils/ui/table.rs"]
+#[path = "./utils/ui/table.rs"]
 mod table;
 
 fn main() {
@@ -28,7 +28,7 @@ fn main() {
         _ => {
             let command_exists: bool = command::Commands::cli_command(&user_args[0]);
             if !command_exists {
-                error::Errors::_throw_error(&error::Errors::_SyntaxError); // throw errors
+                error::Errors::_throw_error(&error::Errors::SyntaxError); // throw syntax error
             }
         }
     }

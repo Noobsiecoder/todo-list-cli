@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to todo-list-cli 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.2-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img alt="Build" src="https://img.shields.io/badge/build-stable-brightgreen.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Noobsiecoder/todo-list-cli#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -12,6 +12,8 @@
 
 > A Todo List CLI created using Rust and SQLite
 
+<img alt="Todo List CLI" src="./docs/src/templates/Todo%20CLI.png">
+
 ### 🏠 [Homepage](https://github.com/Noobsiecoder/todo-list-cli)
 
 ### ✨ [Webpage](https://github.com/Noobsiecoder/todo-list-cli)
@@ -19,6 +21,7 @@
 ### Table of Contents
 
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [I/O Operation commands](#io-operation-commands)
   - [Create task](#create-task)
   - [Display tasks](#display-tasks)
@@ -29,7 +32,6 @@
   - [Uninstall CLI command](#uninstall-cli-command)
 - [Install](#install)
 - [Usage](#usage)
-- [Run tests](#run-tests)
 - [Author](#author)
 - [Show your support](#show-your-support)
 - [License](#license)
@@ -45,6 +47,11 @@
   - End date and time
   - Mark Important
   - Status of completion
+
+## Screenshots
+
+<img alt="Todo List CLI version and help" src="./docs/src/templates/Todo%20Version%20and%20Help.png">
+<img alt="Todo List CLI add" src="./docs/src/templates/Todo%20CLI%20Add.png">
 
 ## I/O Operation commands
 
@@ -108,12 +115,6 @@ cargo build
 
 ```sh
 cargo run
-```
-
-## Run tests
-
-```sh
-cargo test <file_name>
 ```
 
 ## Author
