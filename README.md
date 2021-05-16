@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to todo-list-cli 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
   <img alt="Build" src="https://img.shields.io/badge/build-stable-brightgreen.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Noobsiecoder/todo-list-cli#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
