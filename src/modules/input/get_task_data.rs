@@ -1,4 +1,4 @@
-#[path = "../input/input.rs"]
+#[path = "./input.rs"]
 // Input module
 // Gets user input in String format
 // Is used while handling CRUD operation

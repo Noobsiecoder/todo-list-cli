@@ -1,4 +1,4 @@
-#[path = "./get_task_data.rs"]
+#[path = "../input/get_task_data.rs"]
 // Task module
 // Recieves inputted data and constructs as a struct Task
 mod task_data;
