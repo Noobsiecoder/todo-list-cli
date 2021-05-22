@@ -41,14 +41,14 @@ fn main() {
     // Enable ansi support for windows 10
     #[cfg(target_os = "windows")]
     {
-        let enabled = ansi_term::enable_ans_support();
+        let enabled = ansi_term::enable_ansi_support();
         match enabled {
             Ok(_) => (),
             Err(err) => eprintln!("{}", err),
         }
     }
 
-    let cli_args = input::_get_args();
+    let cli_args = input::_get_arg();
 
     let is_args_given = arguments::check_args_len(&cli_args);
     if is_args_given {
