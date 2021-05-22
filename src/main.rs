@@ -48,7 +48,7 @@ fn main() {
         }
     }
 
-    let cli_args = input::_get_arg();
+    let cli_args = input::_get_args();
 
     let is_args_given = arguments::check_args_len(&cli_args);
     if is_args_given {
